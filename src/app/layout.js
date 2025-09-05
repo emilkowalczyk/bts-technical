@@ -9,7 +9,7 @@ const openSans = Open_Sans({
 
 export const metadata = {
   title: 'Building Technical Service',
-  description: 'Dbamy o bezpieczeństwo, sprawność i komfort Twojej nieruchomości',
+  description: 'Dbamy o bezpieczeństwo, sprawność i komfort nieruchomości',
 };
 
 export default function RootLayout({ children }) {

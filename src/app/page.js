@@ -15,7 +15,7 @@ export default function Home() {
       {/* HERO */}
       <header className='mt-20 flex flex-col justify-center items-center space-y-5 text-center'>
         <h1 className='text-4xl md:text-5xl font-bold text-gray-800'>Kompleksowa obsługa obiektów</h1>
-        <p className='text-lg text-gray-600 max-w-2xl'>Dbamy o bezpieczeństwo, sprawność i komfort Twojej nieruchomości</p>
+        <p className='text-lg text-gray-600 max-w-2xl'>Dbamy o bezpieczeństwo, sprawność i komfort nieruchomości</p>
         <button onClick={scrollToFooter} className='cursor-pointer px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition'>
           Skontaktuj się z nami
         </button>
