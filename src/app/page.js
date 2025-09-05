@@ -19,7 +19,7 @@ export default function Home() {
         <button onClick={scrollToFooter} className='cursor-pointer px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition'>
           Skontaktuj się z nami
         </button>
-        <Image src={'/home2.jpg'} alt='Homepage background' width={1920} height={380} className='mt-16 w-full max-h-[480px] object-cover rounded-xl shadow-lg' />
+        <Image src={'/home.jpg'} alt='Homepage background' width={1920} height={380} className='mt-16 w-full max-h-[480px] object-cover rounded-xl shadow-lg' />
       </header>
 
       {/* ABOUT */}
@@ -30,7 +30,7 @@ export default function Home() {
             BTS to zespół specjalistów z wieloletnim doświadczeniem w branży technicznej. Firma koncentruje się na kompleksowej obsłudze nowoczesnych obiektów biurowych, przemysłowych i usługowych.
           </p>
         </div>
-        <Image src={'/home3.jpg'} alt='Kim jest BTS' width={1920} height={480} className='rounded-xl shadow-lg hidden md:block' />
+        <Image src={'/home1.jpg'} alt='Kim jest BTS' width={1920} height={480} className='rounded-xl shadow-lg hidden md:block' />
       </section>
 
       {/* SPECIALIZATIONS */}
