@@ -19,7 +19,7 @@ export default function Home() {
         <button onClick={scrollToFooter} className='cursor-pointer px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition'>
           Skontaktuj się z nami
         </button>
-        <Image src={'/home.jpg'} alt='Homepage background' width={1920} height={380} className='mt-16 w-full max-h-[480px] object-cover rounded-xl shadow-lg' />
+        <Image src={'/home.jpg'} alt='Homepage background' width={1920} height={380} className='mt-20 w-full max-h-[480px] object-cover rounded-xl shadow-lg' />
       </header>
 
       {/* ABOUT */}
@@ -38,15 +38,15 @@ export default function Home() {
         <h3 className='text-3xl font-bold text-center text-gray-800'>Specjalizacje BTS</h3>
         <div className='w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6'>
           {[
-            { icon: <MdElectricBolt size={50} />, text: 'Instalacje elektryczne i systemy zasilania' },
-            { icon: <MdComputer size={50} />, text: 'Informatyka i integracja systemów' },
-            { icon: <MdBusiness size={50} />, text: 'Systemy BMS (Building Management System)' },
-            { icon: <MdAcUnit size={50} />, text: 'Klimatyzacja i wentylacja' },
-            { icon: <MdLock size={50} />, text: 'Kontrola dostępu i monitoring' },
-            { icon: <MdLocalFireDepartment size={50} />, text: 'Systemy przeciwpożarowe, w tym gaszenie gazem' },
+            { icon: <MdElectricBolt size={50} />, text: 'Instalacje elektryczne i systemy zasilania', color: 'text-amber-500' },
+            { icon: <MdComputer size={50} />, text: 'Informatyka i integracja systemów', color: 'text-blue-600' },
+            { icon: <MdBusiness size={50} />, text: 'Systemy BMS (Building Management System)', color: 'text-indigo-600' },
+            { icon: <MdAcUnit size={50} />, text: 'Klimatyzacja i wentylacja', color: 'text-cyan-500' },
+            { icon: <MdLock size={50} />, text: 'Kontrola dostępu i monitoring', color: 'text-red-700' },
+            { icon: <MdLocalFireDepartment size={50} />, text: 'Systemy przeciwpożarowe', color: 'text-orange-600' },
           ].map((item, i) => (
             <div key={i} className='space-y-4 bg-white shadow-lg rounded-xl p-8 flex flex-col justify-center items-center text-center hover:shadow-2xl hover:-translate-y-1 transition'>
-              <div className='text-blue-600'>{item.icon}</div>
+              <div className={item.color}>{item.icon}</div>
               <h3 className='font-semibold text-gray-700'>{item.text}</h3>
             </div>
           ))}
