@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className='space-y-24'>
       {/* HERO */}
-      <header className='mt-20 flex flex-col justify-center items-center space-y-5 text-center'>
+      <header className='mt-10 flex flex-col justify-center items-center space-y-5 text-center'>
         <h1 className='text-4xl md:text-5xl font-bold text-gray-800'>Kompleksowa obsługa obiektów</h1>
         <p className='text-lg text-gray-600 max-w-2xl'>Dbamy o bezpieczeństwo, sprawność i komfort nieruchomości</p>
         <button onClick={scrollToFooter} className='cursor-pointer px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-md transition'>
@@ -89,9 +89,13 @@ export default function Home() {
           <h3 className='text-2xl font-bold text-white'>Skontaktuj się z nami</h3>
           <div className='space-y-2'>
             <h4 className='font-semibold text-white'>Piotr Klimek</h4>
-            <p>Prezes zarządu</p>
             <p>Tel: +48 606 694 539</p>
             <p>E-mail: piotrklimek@bts-technical.pl</p>
+          </div>
+          <div className='space-y-2'>
+            <h4 className='font-semibold text-white'>Konrad Klimek</h4>
+            <p>Tel: +48 606 584 687</p>
+            <p>E-mail: konradklimek@bts-technical.pl</p>
           </div>
           <p className='mt-10 text-sm text-gray-500'>Copyright &copy; 2025 Wszelkie prawa zastrzeżone</p>
           <Link href='/' className='text-blue-400 hover:text-blue-300 transition'>
